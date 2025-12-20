@@ -1,0 +1,14 @@
+D:\sources\repos\SimpleCSharpConsoleApp\bin\Debug\net10.0\SimpleCSharpConsoleApp.exe
+D:\sources\repos\SimpleCSharpConsoleApp\bin\Debug\net10.0\SimpleCSharpConsoleApp.deps.json
+D:\sources\repos\SimpleCSharpConsoleApp\bin\Debug\net10.0\SimpleCSharpConsoleApp.runtimeconfig.json
+D:\sources\repos\SimpleCSharpConsoleApp\bin\Debug\net10.0\SimpleCSharpConsoleApp.dll
+D:\sources\repos\SimpleCSharpConsoleApp\bin\Debug\net10.0\SimpleCSharpConsoleApp.pdb
+D:\sources\repos\SimpleCSharpConsoleApp\obj\Debug\net10.0\SimpleCSharpConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\sources\repos\SimpleCSharpConsoleApp\obj\Debug\net10.0\SimpleCSharpConsoleApp.AssemblyInfoInputs.cache
+D:\sources\repos\SimpleCSharpConsoleApp\obj\Debug\net10.0\SimpleCSharpConsoleApp.AssemblyInfo.cs
+D:\sources\repos\SimpleCSharpConsoleApp\obj\Debug\net10.0\SimpleCSharpConsoleApp.csproj.CoreCompileInputs.cache
+D:\sources\repos\SimpleCSharpConsoleApp\obj\Debug\net10.0\SimpleCSharpConsoleApp.dll
+D:\sources\repos\SimpleCSharpConsoleApp\obj\Debug\net10.0\refint\SimpleCSharpConsoleApp.dll
+D:\sources\repos\SimpleCSharpConsoleApp\obj\Debug\net10.0\SimpleCSharpConsoleApp.pdb
+D:\sources\repos\SimpleCSharpConsoleApp\obj\Debug\net10.0\SimpleCSharpConsoleApp.genruntimeconfig.cache
+D:\sources\repos\SimpleCSharpConsoleApp\obj\Debug\net10.0\ref\SimpleCSharpConsoleApp.dll

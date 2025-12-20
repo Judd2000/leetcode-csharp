@@ -1,0 +1,14 @@
+D:\sources\repos\FunWithNullableValueTypes\bin\Debug\net10.0\FunWithNullableValueTypes.exe
+D:\sources\repos\FunWithNullableValueTypes\bin\Debug\net10.0\FunWithNullableValueTypes.deps.json
+D:\sources\repos\FunWithNullableValueTypes\bin\Debug\net10.0\FunWithNullableValueTypes.runtimeconfig.json
+D:\sources\repos\FunWithNullableValueTypes\bin\Debug\net10.0\FunWithNullableValueTypes.dll
+D:\sources\repos\FunWithNullableValueTypes\bin\Debug\net10.0\FunWithNullableValueTypes.pdb
+D:\sources\repos\FunWithNullableValueTypes\obj\Debug\net10.0\FunWithNullableValueTypes.GeneratedMSBuildEditorConfig.editorconfig
+D:\sources\repos\FunWithNullableValueTypes\obj\Debug\net10.0\FunWithNullableValueTypes.AssemblyInfoInputs.cache
+D:\sources\repos\FunWithNullableValueTypes\obj\Debug\net10.0\FunWithNullableValueTypes.AssemblyInfo.cs
+D:\sources\repos\FunWithNullableValueTypes\obj\Debug\net10.0\FunWithNullableValueTypes.csproj.CoreCompileInputs.cache
+D:\sources\repos\FunWithNullableValueTypes\obj\Debug\net10.0\FunWithNullableValueTypes.dll
+D:\sources\repos\FunWithNullableValueTypes\obj\Debug\net10.0\refint\FunWithNullableValueTypes.dll
+D:\sources\repos\FunWithNullableValueTypes\obj\Debug\net10.0\FunWithNullableValueTypes.pdb
+D:\sources\repos\FunWithNullableValueTypes\obj\Debug\net10.0\FunWithNullableValueTypes.genruntimeconfig.cache
+D:\sources\repos\FunWithNullableValueTypes\obj\Debug\net10.0\ref\FunWithNullableValueTypes.dll

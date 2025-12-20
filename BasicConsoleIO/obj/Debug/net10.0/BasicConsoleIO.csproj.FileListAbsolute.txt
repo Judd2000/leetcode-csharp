@@ -1,0 +1,14 @@
+D:\sources\repos\BasicConsoleIO\bin\Debug\net10.0\BasicConsoleIO.exe
+D:\sources\repos\BasicConsoleIO\bin\Debug\net10.0\BasicConsoleIO.deps.json
+D:\sources\repos\BasicConsoleIO\bin\Debug\net10.0\BasicConsoleIO.runtimeconfig.json
+D:\sources\repos\BasicConsoleIO\bin\Debug\net10.0\BasicConsoleIO.dll
+D:\sources\repos\BasicConsoleIO\bin\Debug\net10.0\BasicConsoleIO.pdb
+D:\sources\repos\BasicConsoleIO\obj\Debug\net10.0\BasicConsoleIO.GeneratedMSBuildEditorConfig.editorconfig
+D:\sources\repos\BasicConsoleIO\obj\Debug\net10.0\BasicConsoleIO.AssemblyInfoInputs.cache
+D:\sources\repos\BasicConsoleIO\obj\Debug\net10.0\BasicConsoleIO.AssemblyInfo.cs
+D:\sources\repos\BasicConsoleIO\obj\Debug\net10.0\BasicConsoleIO.csproj.CoreCompileInputs.cache
+D:\sources\repos\BasicConsoleIO\obj\Debug\net10.0\BasicConsoleIO.dll
+D:\sources\repos\BasicConsoleIO\obj\Debug\net10.0\refint\BasicConsoleIO.dll
+D:\sources\repos\BasicConsoleIO\obj\Debug\net10.0\BasicConsoleIO.pdb
+D:\sources\repos\BasicConsoleIO\obj\Debug\net10.0\BasicConsoleIO.genruntimeconfig.cache
+D:\sources\repos\BasicConsoleIO\obj\Debug\net10.0\ref\BasicConsoleIO.dll

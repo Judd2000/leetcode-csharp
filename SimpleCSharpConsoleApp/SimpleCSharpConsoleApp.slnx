@@ -1,0 +1,10 @@
+<Solution>
+  <Project Path="../BasicConsoleIO/BasicConsoleIO.csproj" Id="75a14e25-4474-49ac-acff-dec250e352c6" />
+  <Project Path="../Chapter4ProC#/Chapter4ProC#.csproj" Id="84ad7e56-0508-4467-9a89-caf957664e9f" />
+  <Project Path="../FunWithNullableReferenceTypes/FunWithNullableReferenceTypes.csproj" Id="184b1c70-7ea4-4d3f-b4ad-f60c7566c420" />
+  <Project Path="../FunWithNullableValueTypes/FunWithNullableValueTypes.csproj" Id="61c657c2-a59c-4927-931f-0f4efd3f17e7" />
+  <Project Path="../FunWithTuples/FunWithTuples.csproj" Id="ef5228ed-352e-4f91-b129-d946d5b362d3" />
+  <Project Path="../SimpleCSharpApp_3/SimpleCSharpApp_3.csproj" Id="ef68780f-e316-4f3b-be81-bced7edd7b02" />
+  <Project Path="BasicDataTypes/BasicDataTypes.csproj" />
+  <Project Path="SimpleCSharpConsoleApp.csproj" />
+</Solution>

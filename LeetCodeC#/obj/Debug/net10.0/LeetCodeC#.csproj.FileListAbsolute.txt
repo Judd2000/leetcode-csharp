@@ -1,0 +1,14 @@
+D:\sources\repos\LeetCodeC#\bin\Debug\net10.0\LeetCodeC#.exe
+D:\sources\repos\LeetCodeC#\bin\Debug\net10.0\LeetCodeC#.deps.json
+D:\sources\repos\LeetCodeC#\bin\Debug\net10.0\LeetCodeC#.runtimeconfig.json
+D:\sources\repos\LeetCodeC#\bin\Debug\net10.0\LeetCodeC#.dll
+D:\sources\repos\LeetCodeC#\bin\Debug\net10.0\LeetCodeC#.pdb
+D:\sources\repos\LeetCodeC#\obj\Debug\net10.0\LeetCodeC#.GeneratedMSBuildEditorConfig.editorconfig
+D:\sources\repos\LeetCodeC#\obj\Debug\net10.0\LeetCodeC#.AssemblyInfoInputs.cache
+D:\sources\repos\LeetCodeC#\obj\Debug\net10.0\LeetCodeC#.AssemblyInfo.cs
+D:\sources\repos\LeetCodeC#\obj\Debug\net10.0\LeetCodeC#.csproj.CoreCompileInputs.cache
+D:\sources\repos\LeetCodeC#\obj\Debug\net10.0\LeetCodeC#.dll
+D:\sources\repos\LeetCodeC#\obj\Debug\net10.0\refint\LeetCodeC#.dll
+D:\sources\repos\LeetCodeC#\obj\Debug\net10.0\LeetCodeC#.pdb
+D:\sources\repos\LeetCodeC#\obj\Debug\net10.0\LeetCodeC#.genruntimeconfig.cache
+D:\sources\repos\LeetCodeC#\obj\Debug\net10.0\ref\LeetCodeC#.dll

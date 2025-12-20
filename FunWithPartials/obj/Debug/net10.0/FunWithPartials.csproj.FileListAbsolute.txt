@@ -1,0 +1,14 @@
+D:\sources\repos\FunWithPartials\bin\Debug\net10.0\FunWithPartials.exe
+D:\sources\repos\FunWithPartials\bin\Debug\net10.0\FunWithPartials.deps.json
+D:\sources\repos\FunWithPartials\bin\Debug\net10.0\FunWithPartials.runtimeconfig.json
+D:\sources\repos\FunWithPartials\bin\Debug\net10.0\FunWithPartials.dll
+D:\sources\repos\FunWithPartials\bin\Debug\net10.0\FunWithPartials.pdb
+D:\sources\repos\FunWithPartials\obj\Debug\net10.0\FunWithPartials.GeneratedMSBuildEditorConfig.editorconfig
+D:\sources\repos\FunWithPartials\obj\Debug\net10.0\FunWithPartials.AssemblyInfoInputs.cache
+D:\sources\repos\FunWithPartials\obj\Debug\net10.0\FunWithPartials.AssemblyInfo.cs
+D:\sources\repos\FunWithPartials\obj\Debug\net10.0\FunWithPartials.csproj.CoreCompileInputs.cache
+D:\sources\repos\FunWithPartials\obj\Debug\net10.0\FunWithPartials.dll
+D:\sources\repos\FunWithPartials\obj\Debug\net10.0\refint\FunWithPartials.dll
+D:\sources\repos\FunWithPartials\obj\Debug\net10.0\FunWithPartials.pdb
+D:\sources\repos\FunWithPartials\obj\Debug\net10.0\FunWithPartials.genruntimeconfig.cache
+D:\sources\repos\FunWithPartials\obj\Debug\net10.0\ref\FunWithPartials.dll

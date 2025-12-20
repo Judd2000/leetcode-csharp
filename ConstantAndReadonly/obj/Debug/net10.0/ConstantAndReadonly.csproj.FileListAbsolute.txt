@@ -1,0 +1,14 @@
+D:\sources\repos\ConstantAndReadonly\bin\Debug\net10.0\ConstantAndReadonly.exe
+D:\sources\repos\ConstantAndReadonly\bin\Debug\net10.0\ConstantAndReadonly.deps.json
+D:\sources\repos\ConstantAndReadonly\bin\Debug\net10.0\ConstantAndReadonly.runtimeconfig.json
+D:\sources\repos\ConstantAndReadonly\bin\Debug\net10.0\ConstantAndReadonly.dll
+D:\sources\repos\ConstantAndReadonly\bin\Debug\net10.0\ConstantAndReadonly.pdb
+D:\sources\repos\ConstantAndReadonly\obj\Debug\net10.0\ConstantAndReadonly.GeneratedMSBuildEditorConfig.editorconfig
+D:\sources\repos\ConstantAndReadonly\obj\Debug\net10.0\ConstantAndReadonly.AssemblyInfoInputs.cache
+D:\sources\repos\ConstantAndReadonly\obj\Debug\net10.0\ConstantAndReadonly.AssemblyInfo.cs
+D:\sources\repos\ConstantAndReadonly\obj\Debug\net10.0\ConstantAndReadonly.csproj.CoreCompileInputs.cache
+D:\sources\repos\ConstantAndReadonly\obj\Debug\net10.0\ConstantAndReadonly.dll
+D:\sources\repos\ConstantAndReadonly\obj\Debug\net10.0\refint\ConstantAndReadonly.dll
+D:\sources\repos\ConstantAndReadonly\obj\Debug\net10.0\ConstantAndReadonly.pdb
+D:\sources\repos\ConstantAndReadonly\obj\Debug\net10.0\ConstantAndReadonly.genruntimeconfig.cache
+D:\sources\repos\ConstantAndReadonly\obj\Debug\net10.0\ref\ConstantAndReadonly.dll

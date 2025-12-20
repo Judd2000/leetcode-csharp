@@ -1,0 +1,14 @@
+D:\sources\repos\StaticDataAndMembers\bin\Debug\net10.0\StaticDataAndMembers.exe
+D:\sources\repos\StaticDataAndMembers\bin\Debug\net10.0\StaticDataAndMembers.deps.json
+D:\sources\repos\StaticDataAndMembers\bin\Debug\net10.0\StaticDataAndMembers.runtimeconfig.json
+D:\sources\repos\StaticDataAndMembers\bin\Debug\net10.0\StaticDataAndMembers.dll
+D:\sources\repos\StaticDataAndMembers\bin\Debug\net10.0\StaticDataAndMembers.pdb
+D:\sources\repos\StaticDataAndMembers\obj\Debug\net10.0\StaticDataAndMembers.GeneratedMSBuildEditorConfig.editorconfig
+D:\sources\repos\StaticDataAndMembers\obj\Debug\net10.0\StaticDataAndMembers.AssemblyInfoInputs.cache
+D:\sources\repos\StaticDataAndMembers\obj\Debug\net10.0\StaticDataAndMembers.AssemblyInfo.cs
+D:\sources\repos\StaticDataAndMembers\obj\Debug\net10.0\StaticDataAndMembers.csproj.CoreCompileInputs.cache
+D:\sources\repos\StaticDataAndMembers\obj\Debug\net10.0\StaticDataAndMembers.dll
+D:\sources\repos\StaticDataAndMembers\obj\Debug\net10.0\refint\StaticDataAndMembers.dll
+D:\sources\repos\StaticDataAndMembers\obj\Debug\net10.0\StaticDataAndMembers.pdb
+D:\sources\repos\StaticDataAndMembers\obj\Debug\net10.0\StaticDataAndMembers.genruntimeconfig.cache
+D:\sources\repos\StaticDataAndMembers\obj\Debug\net10.0\ref\StaticDataAndMembers.dll

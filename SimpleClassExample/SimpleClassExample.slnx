@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="../ConstantAndReadonly/ConstantAndReadonly.csproj" />
+  <Project Path="../FunWithPartials/FunWithPartials.csproj" Id="71b9a183-5f81-491a-854b-088bf64e50ad" />
+  <Project Path="../StaticDataAndMembers/StaticDataAndMembers.csproj" />
+  <Project Path="SimpleClassExample.csproj" />
+</Solution>

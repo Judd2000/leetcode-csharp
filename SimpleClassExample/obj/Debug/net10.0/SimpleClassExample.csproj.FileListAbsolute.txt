@@ -1,0 +1,14 @@
+D:\sources\repos\SimpleClassExample\bin\Debug\net10.0\SimpleClassExample.exe
+D:\sources\repos\SimpleClassExample\bin\Debug\net10.0\SimpleClassExample.deps.json
+D:\sources\repos\SimpleClassExample\bin\Debug\net10.0\SimpleClassExample.runtimeconfig.json
+D:\sources\repos\SimpleClassExample\bin\Debug\net10.0\SimpleClassExample.dll
+D:\sources\repos\SimpleClassExample\bin\Debug\net10.0\SimpleClassExample.pdb
+D:\sources\repos\SimpleClassExample\obj\Debug\net10.0\SimpleClassExample.GeneratedMSBuildEditorConfig.editorconfig
+D:\sources\repos\SimpleClassExample\obj\Debug\net10.0\SimpleClassExample.AssemblyInfoInputs.cache
+D:\sources\repos\SimpleClassExample\obj\Debug\net10.0\SimpleClassExample.AssemblyInfo.cs
+D:\sources\repos\SimpleClassExample\obj\Debug\net10.0\SimpleClassExample.csproj.CoreCompileInputs.cache
+D:\sources\repos\SimpleClassExample\obj\Debug\net10.0\SimpleClassExample.dll
+D:\sources\repos\SimpleClassExample\obj\Debug\net10.0\refint\SimpleClassExample.dll
+D:\sources\repos\SimpleClassExample\obj\Debug\net10.0\SimpleClassExample.pdb
+D:\sources\repos\SimpleClassExample\obj\Debug\net10.0\SimpleClassExample.genruntimeconfig.cache
+D:\sources\repos\SimpleClassExample\obj\Debug\net10.0\ref\SimpleClassExample.dll
