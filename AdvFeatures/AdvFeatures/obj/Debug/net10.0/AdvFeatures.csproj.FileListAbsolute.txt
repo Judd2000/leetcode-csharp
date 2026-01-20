@@ -1,0 +1,15 @@
+D:\sources\repos\AdvFeatures\AdvFeatures\bin\Debug\net10.0\AdvFeatures.exe
+D:\sources\repos\AdvFeatures\AdvFeatures\bin\Debug\net10.0\AdvFeatures.deps.json
+D:\sources\repos\AdvFeatures\AdvFeatures\bin\Debug\net10.0\AdvFeatures.runtimeconfig.json
+D:\sources\repos\AdvFeatures\AdvFeatures\bin\Debug\net10.0\AdvFeatures.dll
+D:\sources\repos\AdvFeatures\AdvFeatures\bin\Debug\net10.0\AdvFeatures.pdb
+D:\sources\repos\AdvFeatures\AdvFeatures\obj\Debug\net10.0\AdvFeatures.GeneratedMSBuildEditorConfig.editorconfig
+D:\sources\repos\AdvFeatures\AdvFeatures\obj\Debug\net10.0\AdvFeatures.AssemblyInfoInputs.cache
+D:\sources\repos\AdvFeatures\AdvFeatures\obj\Debug\net10.0\AdvFeatures.AssemblyInfo.cs
+D:\sources\repos\AdvFeatures\AdvFeatures\obj\Debug\net10.0\AdvFeatures.csproj.CoreCompileInputs.cache
+D:\sources\repos\AdvFeatures\AdvFeatures\obj\Debug\net10.0\AdvFeatures.sourcelink.json
+D:\sources\repos\AdvFeatures\AdvFeatures\obj\Debug\net10.0\AdvFeatures.dll
+D:\sources\repos\AdvFeatures\AdvFeatures\obj\Debug\net10.0\refint\AdvFeatures.dll
+D:\sources\repos\AdvFeatures\AdvFeatures\obj\Debug\net10.0\AdvFeatures.pdb
+D:\sources\repos\AdvFeatures\AdvFeatures\obj\Debug\net10.0\AdvFeatures.genruntimeconfig.cache
+D:\sources\repos\AdvFeatures\AdvFeatures\obj\Debug\net10.0\ref\AdvFeatures.dll

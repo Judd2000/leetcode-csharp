@@ -1,0 +1,15 @@
+D:\sources\repos\AnonymousMethods\bin\Debug\net10.0\AnonymousMethods.exe
+D:\sources\repos\AnonymousMethods\bin\Debug\net10.0\AnonymousMethods.deps.json
+D:\sources\repos\AnonymousMethods\bin\Debug\net10.0\AnonymousMethods.runtimeconfig.json
+D:\sources\repos\AnonymousMethods\bin\Debug\net10.0\AnonymousMethods.dll
+D:\sources\repos\AnonymousMethods\bin\Debug\net10.0\AnonymousMethods.pdb
+D:\sources\repos\AnonymousMethods\obj\Debug\net10.0\AnonymousMethods.GeneratedMSBuildEditorConfig.editorconfig
+D:\sources\repos\AnonymousMethods\obj\Debug\net10.0\AnonymousMethods.AssemblyInfoInputs.cache
+D:\sources\repos\AnonymousMethods\obj\Debug\net10.0\AnonymousMethods.AssemblyInfo.cs
+D:\sources\repos\AnonymousMethods\obj\Debug\net10.0\AnonymousMethods.csproj.CoreCompileInputs.cache
+D:\sources\repos\AnonymousMethods\obj\Debug\net10.0\AnonymousMethods.sourcelink.json
+D:\sources\repos\AnonymousMethods\obj\Debug\net10.0\AnonymousMethods.dll
+D:\sources\repos\AnonymousMethods\obj\Debug\net10.0\refint\AnonymousMethods.dll
+D:\sources\repos\AnonymousMethods\obj\Debug\net10.0\AnonymousMethods.pdb
+D:\sources\repos\AnonymousMethods\obj\Debug\net10.0\AnonymousMethods.genruntimeconfig.cache
+D:\sources\repos\AnonymousMethods\obj\Debug\net10.0\ref\AnonymousMethods.dll

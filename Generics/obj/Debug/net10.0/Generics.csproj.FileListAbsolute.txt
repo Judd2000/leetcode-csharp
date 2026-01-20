@@ -1,0 +1,15 @@
+D:\sources\repos\Generics\bin\Debug\net10.0\Generics.exe
+D:\sources\repos\Generics\bin\Debug\net10.0\Generics.deps.json
+D:\sources\repos\Generics\bin\Debug\net10.0\Generics.runtimeconfig.json
+D:\sources\repos\Generics\bin\Debug\net10.0\Generics.dll
+D:\sources\repos\Generics\bin\Debug\net10.0\Generics.pdb
+D:\sources\repos\Generics\obj\Debug\net10.0\Generics.GeneratedMSBuildEditorConfig.editorconfig
+D:\sources\repos\Generics\obj\Debug\net10.0\Generics.AssemblyInfoInputs.cache
+D:\sources\repos\Generics\obj\Debug\net10.0\Generics.AssemblyInfo.cs
+D:\sources\repos\Generics\obj\Debug\net10.0\Generics.csproj.CoreCompileInputs.cache
+D:\sources\repos\Generics\obj\Debug\net10.0\Generics.sourcelink.json
+D:\sources\repos\Generics\obj\Debug\net10.0\Generics.dll
+D:\sources\repos\Generics\obj\Debug\net10.0\refint\Generics.dll
+D:\sources\repos\Generics\obj\Debug\net10.0\Generics.pdb
+D:\sources\repos\Generics\obj\Debug\net10.0\Generics.genruntimeconfig.cache
+D:\sources\repos\Generics\obj\Debug\net10.0\ref\Generics.dll

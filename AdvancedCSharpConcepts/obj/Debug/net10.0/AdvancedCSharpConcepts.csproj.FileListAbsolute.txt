@@ -1,0 +1,15 @@
+D:\sources\repos\AdvancedCSharpConcepts\bin\Debug\net10.0\AdvancedCSharpConcepts.exe
+D:\sources\repos\AdvancedCSharpConcepts\bin\Debug\net10.0\AdvancedCSharpConcepts.deps.json
+D:\sources\repos\AdvancedCSharpConcepts\bin\Debug\net10.0\AdvancedCSharpConcepts.runtimeconfig.json
+D:\sources\repos\AdvancedCSharpConcepts\bin\Debug\net10.0\AdvancedCSharpConcepts.dll
+D:\sources\repos\AdvancedCSharpConcepts\bin\Debug\net10.0\AdvancedCSharpConcepts.pdb
+D:\sources\repos\AdvancedCSharpConcepts\obj\Debug\net10.0\AdvancedCSharpConcepts.GeneratedMSBuildEditorConfig.editorconfig
+D:\sources\repos\AdvancedCSharpConcepts\obj\Debug\net10.0\AdvancedCSharpConcepts.AssemblyInfoInputs.cache
+D:\sources\repos\AdvancedCSharpConcepts\obj\Debug\net10.0\AdvancedCSharpConcepts.AssemblyInfo.cs
+D:\sources\repos\AdvancedCSharpConcepts\obj\Debug\net10.0\AdvancedCSharpConcepts.csproj.CoreCompileInputs.cache
+D:\sources\repos\AdvancedCSharpConcepts\obj\Debug\net10.0\AdvancedCSharpConcepts.sourcelink.json
+D:\sources\repos\AdvancedCSharpConcepts\obj\Debug\net10.0\AdvancedCSharpConcepts.dll
+D:\sources\repos\AdvancedCSharpConcepts\obj\Debug\net10.0\refint\AdvancedCSharpConcepts.dll
+D:\sources\repos\AdvancedCSharpConcepts\obj\Debug\net10.0\AdvancedCSharpConcepts.pdb
+D:\sources\repos\AdvancedCSharpConcepts\obj\Debug\net10.0\AdvancedCSharpConcepts.genruntimeconfig.cache
+D:\sources\repos\AdvancedCSharpConcepts\obj\Debug\net10.0\ref\AdvancedCSharpConcepts.dll

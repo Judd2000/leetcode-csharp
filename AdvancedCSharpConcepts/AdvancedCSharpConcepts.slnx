@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="../AdvConcepts/AdvConcepts/ExtensionMethods/ExtensionMethods.csproj" Id="001fa4e8-be8e-43ed-a832-3f29c0c43951" />
+  <Project Path="../AdvFeatures/AdvFeatures/AdvFeatures.csproj" />
+  <Project Path="../GenericMethods/GenericMethods.csproj" />
+  <Project Path="../Generics/Generics.csproj" />
+  <Project Path="AdvancedCSharpConcepts.csproj" />
+</Solution>

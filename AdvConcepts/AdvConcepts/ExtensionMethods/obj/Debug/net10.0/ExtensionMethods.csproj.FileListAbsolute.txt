@@ -1,0 +1,15 @@
+D:\sources\repos\AdvConcepts\AdvConcepts\ExtensionMethods\bin\Debug\net10.0\ExtensionMethods.exe
+D:\sources\repos\AdvConcepts\AdvConcepts\ExtensionMethods\bin\Debug\net10.0\ExtensionMethods.deps.json
+D:\sources\repos\AdvConcepts\AdvConcepts\ExtensionMethods\bin\Debug\net10.0\ExtensionMethods.runtimeconfig.json
+D:\sources\repos\AdvConcepts\AdvConcepts\ExtensionMethods\bin\Debug\net10.0\ExtensionMethods.dll
+D:\sources\repos\AdvConcepts\AdvConcepts\ExtensionMethods\bin\Debug\net10.0\ExtensionMethods.pdb
+D:\sources\repos\AdvConcepts\AdvConcepts\ExtensionMethods\obj\Debug\net10.0\ExtensionMethods.GeneratedMSBuildEditorConfig.editorconfig
+D:\sources\repos\AdvConcepts\AdvConcepts\ExtensionMethods\obj\Debug\net10.0\ExtensionMethods.AssemblyInfoInputs.cache
+D:\sources\repos\AdvConcepts\AdvConcepts\ExtensionMethods\obj\Debug\net10.0\ExtensionMethods.AssemblyInfo.cs
+D:\sources\repos\AdvConcepts\AdvConcepts\ExtensionMethods\obj\Debug\net10.0\ExtensionMethods.csproj.CoreCompileInputs.cache
+D:\sources\repos\AdvConcepts\AdvConcepts\ExtensionMethods\obj\Debug\net10.0\ExtensionMethods.sourcelink.json
+D:\sources\repos\AdvConcepts\AdvConcepts\ExtensionMethods\obj\Debug\net10.0\ExtensionMethods.dll
+D:\sources\repos\AdvConcepts\AdvConcepts\ExtensionMethods\obj\Debug\net10.0\refint\ExtensionMethods.dll
+D:\sources\repos\AdvConcepts\AdvConcepts\ExtensionMethods\obj\Debug\net10.0\ExtensionMethods.pdb
+D:\sources\repos\AdvConcepts\AdvConcepts\ExtensionMethods\obj\Debug\net10.0\ExtensionMethods.genruntimeconfig.cache
+D:\sources\repos\AdvConcepts\AdvConcepts\ExtensionMethods\obj\Debug\net10.0\ref\ExtensionMethods.dll

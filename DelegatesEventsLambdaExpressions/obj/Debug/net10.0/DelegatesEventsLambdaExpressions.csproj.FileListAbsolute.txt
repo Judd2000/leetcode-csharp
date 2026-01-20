@@ -1,0 +1,15 @@
+D:\sources\repos\DelegatesEventsLambdaExpressions\bin\Debug\net10.0\DelegatesEventsLambdaExpressions.exe
+D:\sources\repos\DelegatesEventsLambdaExpressions\bin\Debug\net10.0\DelegatesEventsLambdaExpressions.deps.json
+D:\sources\repos\DelegatesEventsLambdaExpressions\bin\Debug\net10.0\DelegatesEventsLambdaExpressions.runtimeconfig.json
+D:\sources\repos\DelegatesEventsLambdaExpressions\bin\Debug\net10.0\DelegatesEventsLambdaExpressions.dll
+D:\sources\repos\DelegatesEventsLambdaExpressions\bin\Debug\net10.0\DelegatesEventsLambdaExpressions.pdb
+D:\sources\repos\DelegatesEventsLambdaExpressions\obj\Debug\net10.0\DelegatesEventsLambdaExpressions.GeneratedMSBuildEditorConfig.editorconfig
+D:\sources\repos\DelegatesEventsLambdaExpressions\obj\Debug\net10.0\DelegatesEventsLambdaExpressions.AssemblyInfoInputs.cache
+D:\sources\repos\DelegatesEventsLambdaExpressions\obj\Debug\net10.0\DelegatesEventsLambdaExpressions.AssemblyInfo.cs
+D:\sources\repos\DelegatesEventsLambdaExpressions\obj\Debug\net10.0\DelegatesEventsLambdaExpressions.csproj.CoreCompileInputs.cache
+D:\sources\repos\DelegatesEventsLambdaExpressions\obj\Debug\net10.0\DelegatesEventsLambdaExpressions.sourcelink.json
+D:\sources\repos\DelegatesEventsLambdaExpressions\obj\Debug\net10.0\DelegatesEventsLambdaExpressions.dll
+D:\sources\repos\DelegatesEventsLambdaExpressions\obj\Debug\net10.0\refint\DelegatesEventsLambdaExpressions.dll
+D:\sources\repos\DelegatesEventsLambdaExpressions\obj\Debug\net10.0\DelegatesEventsLambdaExpressions.pdb
+D:\sources\repos\DelegatesEventsLambdaExpressions\obj\Debug\net10.0\DelegatesEventsLambdaExpressions.genruntimeconfig.cache
+D:\sources\repos\DelegatesEventsLambdaExpressions\obj\Debug\net10.0\ref\DelegatesEventsLambdaExpressions.dll

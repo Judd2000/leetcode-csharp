@@ -1,0 +1,15 @@
+D:\sources\repos\PublicDelegateProblem\bin\Debug\net10.0\PublicDelegateProblem.exe
+D:\sources\repos\PublicDelegateProblem\bin\Debug\net10.0\PublicDelegateProblem.deps.json
+D:\sources\repos\PublicDelegateProblem\bin\Debug\net10.0\PublicDelegateProblem.runtimeconfig.json
+D:\sources\repos\PublicDelegateProblem\bin\Debug\net10.0\PublicDelegateProblem.dll
+D:\sources\repos\PublicDelegateProblem\bin\Debug\net10.0\PublicDelegateProblem.pdb
+D:\sources\repos\PublicDelegateProblem\obj\Debug\net10.0\PublicDelegateProblem.GeneratedMSBuildEditorConfig.editorconfig
+D:\sources\repos\PublicDelegateProblem\obj\Debug\net10.0\PublicDelegateProblem.AssemblyInfoInputs.cache
+D:\sources\repos\PublicDelegateProblem\obj\Debug\net10.0\PublicDelegateProblem.AssemblyInfo.cs
+D:\sources\repos\PublicDelegateProblem\obj\Debug\net10.0\PublicDelegateProblem.csproj.CoreCompileInputs.cache
+D:\sources\repos\PublicDelegateProblem\obj\Debug\net10.0\PublicDelegateProblem.sourcelink.json
+D:\sources\repos\PublicDelegateProblem\obj\Debug\net10.0\PublicDelegateProblem.dll
+D:\sources\repos\PublicDelegateProblem\obj\Debug\net10.0\refint\PublicDelegateProblem.dll
+D:\sources\repos\PublicDelegateProblem\obj\Debug\net10.0\PublicDelegateProblem.pdb
+D:\sources\repos\PublicDelegateProblem\obj\Debug\net10.0\PublicDelegateProblem.genruntimeconfig.cache
+D:\sources\repos\PublicDelegateProblem\obj\Debug\net10.0\ref\PublicDelegateProblem.dll

@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="../AnonymousMethods/AnonymousMethods.csproj" Id="e021e816-f43c-4136-aa75-4ebcd793d4fd" />
+  <Project Path="../PublicDelegateProblem/PublicDelegateProblem.csproj" Id="c32b3435-0aec-4b3c-8b1c-bdcbf3d8188a" />
+  <Project Path="DelegatesEventsLambdaExpressions.csproj" />
+</Solution>
