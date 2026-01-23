@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="../ClassLibrary2/ClassLibrary2.csproj" Id="3227bce0-f827-42a3-8841-54ba11c4319c" />
+  <Project Path="../DefaultAppDomainApp/DefaultAppDomainApp.csproj" Id="255f3f18-f6ab-4ac8-a014-7b5f37b7babb" />
+  <Project Path="ProcessesAppDomains.csproj" />
+</Solution>
