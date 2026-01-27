@@ -1,3 +1,7 @@
 <Solution>
+  <Project Path="../AsyncAwait/AsyncAwait.csproj" Id="cf55c138-7926-4ce7-9aab-00c7fd26120d" />
+  <Project Path="../DataParallelismWithForEach/DataParallelismWithForEach.csproj" Id="e872962c-38b9-4bd5-a836-4774c175db94" />
+  <Project Path="../MyEBookReader/MyEBookReader.csproj" Id="675a535f-638b-47bd-a733-56eb533a89fb" />
+  <Project Path="../PLINQDataProcessing/PLINQDataProcessing.csproj" Id="55afa5cf-25e0-414a-a331-2bbc79ebbbd5" />
   <Project Path="MultithreadedAndParallel.csproj" />
 </Solution>
