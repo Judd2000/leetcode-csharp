@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="CustomNamespaces/CustomNamespaces.csproj" />
+  <Project Path="FunWithConfiguration/FunWithConfiguration.csproj" Id="33da8c70-b741-4f13-90c2-85a231df4dd0" />
 </Solution>

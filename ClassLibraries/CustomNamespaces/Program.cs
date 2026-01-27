@@ -16,3 +16,9 @@
 // namespace SolarSystem {}
 
 // have namespaces match folder structure
+
+// in the project file, 	  <RootNamespace>PUT YOUR ROOT NAMESPACE HERE</RootNamespace> in <PropertyGroup> also configures the root namespace.
+
+// FIND HEADERS FOR A .DLL WITH:
+// dumpbin /headers file.dll
+// dumpbin /clrheader file.dll
