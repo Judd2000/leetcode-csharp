@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="CarLibrary/CarLibrary.csproj" />
+  <Project Path="CSharpCarClient/CSharpCarClient.csproj" />
+</Solution>
