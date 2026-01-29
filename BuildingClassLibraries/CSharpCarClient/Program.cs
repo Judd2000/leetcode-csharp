@@ -1,4 +1,4 @@
-﻿using CarLibrary; // when project reference is made, solution build order adjusted so that dependents are built first.
+﻿using CarLibrary;
 
 Console.WriteLine("*** C# CarLibary Client App ***\n");
 
@@ -8,3 +8,4 @@ viper.TurboBoost();
 // Minivan
 MiniVan mv = new();
 mv.TurboBoost();
+Console.ReadLine();
