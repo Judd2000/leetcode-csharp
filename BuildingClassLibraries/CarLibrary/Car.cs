@@ -20,4 +20,9 @@ public abstract class Car
         CurrentSpeed = currentSpeed;
         MaxSpeed = maxSpeed;
     }
+
+    public void TurnOnRadio(bool musicOn, MusicMediaEnum mm) {
+        string message = musicOn ? "Ra ra rararara" : "";
+        Console.WriteLine(message);
+    }
 }
