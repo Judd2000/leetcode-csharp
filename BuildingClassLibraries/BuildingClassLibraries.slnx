@@ -1,4 +1,6 @@
 <Solution>
-  <Project Path="CarLibrary/CarLibrary.csproj" />
+  <Project Path="CarLibrary/CarLibraryNJudd.csproj" />
   <Project Path="CSharpCarClient/CSharpCarClient.csproj" />
+  <Project Path="ExternalAssemblyReflection/ExternalAssemblyReflection.csproj" Id="b62af289-3120-421f-bd22-966f52dabb7f" />
+  <Project Path="ProbingPaths/ProbingPaths.csproj" Id="f467ff07-f21e-42b3-9998-f5598a03cedb" />
 </Solution>
