@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="CarLibraryNJudd" Version="1.0.4" />
+    <PackageReference Include="CarLibraryNJudd" Version="1.0.0" />
   </ItemGroup>
 
 </Project>

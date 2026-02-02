@@ -1,6 +1,19 @@
 <Solution>
+  <Project Path="ApplyingAttributes/ApplyingAttributes.csproj" Id="54f2a2b7-545e-4554-9103-57c1eb752b78" />
   <Project Path="CarLibrary/CarLibraryNJudd.csproj" />
+  <Project Path="CommonSnappableTypes/CommonSnappableTypes.csproj" />
   <Project Path="CSharpCarClient/CSharpCarClient.csproj" />
+  <Project Path="CSharpSnapIn/CSharpSnapIn.csproj" />
+  <Project Path="DynamicKeyword/DynamicKeyword.csproj" Id="9e58e9d1-583a-486a-a2e7-8de076bf76a5" />
   <Project Path="ExternalAssemblyReflection/ExternalAssemblyReflection.csproj" Id="b62af289-3120-421f-bd22-966f52dabb7f" />
+  <Project Path="FrameworkAssemblyViewer/FrameworkAssemblyViewer.csproj" Id="5acd0933-cb25-4b73-88ae-a0896fc17cfe" />
+  <Project Path="LateBinding/LateBinding.csproj" Id="062e1fa5-e97e-49a5-9aea-4b25c1bf09cf" />
+  <Project Path="MyExtendableApp/MyExtendableApp.csproj">
+    <BuildDependency Project="CSharpSnapIn/CSharpSnapIn.csproj" />
+    <BuildDependency Project="VBSnapIn/VBSnapIn.vbproj" />
+  </Project>
   <Project Path="ProbingPaths/ProbingPaths.csproj" Id="f467ff07-f21e-42b3-9998-f5598a03cedb" />
+  <Project Path="VBSnapIn/VBSnapIn.vbproj" />
+  <Project Path="VehicleAttrReaderLate/VehicleAttrReaderLate.csproj" Id="0a366235-8072-4601-949c-a82bb0abaa6f" />
+  <Project Path="VehicleDescriptionAttrReader/VehicleDescriptionAttrReader.csproj" Id="66cc0e31-b695-4a7b-9ae3-b82c10d5dd5a" />
 </Solution>
