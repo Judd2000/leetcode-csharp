@@ -15,6 +15,7 @@
     <BuildDependency Project="VBSnapIn/VBSnapIn.vbproj" />
   </Project>
   <Project Path="ProbingPaths/ProbingPaths.csproj" Id="f467ff07-f21e-42b3-9998-f5598a03cedb" />
+  <Project Path="RoundTrip/RoundTrip.csproj" Id="ce246e6c-712a-4986-ab50-3a097af083a1" />
   <Project Path="VBSnapIn/VBSnapIn.vbproj" />
   <Project Path="VehicleAttrReaderLate/VehicleAttrReaderLate.csproj" Id="0a366235-8072-4601-949c-a82bb0abaa6f" />
   <Project Path="VehicleDescriptionAttrReader/VehicleDescriptionAttrReader.csproj" Id="66cc0e31-b695-4a7b-9ae3-b82c10d5dd5a" />
