@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>VisualBasicCarClient</RootNamespace>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="D:\Work_Projects\leetcode-csharp\BuildingClassLibraries\VisualBasicCarClient\Program.vb" Link="Program.vb" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CarLibrary\CarLibrary.csproj" />
+  </ItemGroup>
+
+</Project>

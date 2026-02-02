@@ -1,4 +1,5 @@
 ﻿using DynamicKeyword;
+using System.Reflection;
 
 static void ImplicitlyTyped() {
     var a = new List<int> { 10, 20, 30, 40, 50 };
@@ -28,3 +29,23 @@ static void ChangeDynamicDataType() {
 }
 
 ChangeDynamicDataType();
+
+// Be careful with these, you can call . on any of them and the compiler / intellisense will not correct you.
+// It is a good idea to use a try catch block when using dynamic data
+
+// Implicitly typed data is only valid for local vars in a member scope. However, the dynamic keyword can be used on class attributes and return types.
+
+// no lambdas, you need to use the underlying delegate types (since type inference can't help you here) cannot: dynamicA.Method((arg) => Console.WriteLine(arg));
+
+// consider late binding without the MethodInfo, metadata object queries
+
+static void InvokeMethodWithDynamic(Assembly assembly) {
+    try
+    {
+        Type miniVan = assembly.GetType("CarLibrary.MiniVan");
+
+        dynamic van = Activator.CreateInstance(miniVan);
+        van.TurboBoost(); // can call it immediately without querying method info
+    }
+    catch (Exception ex) { Console.WriteLine(ex.ToString()); }
+}

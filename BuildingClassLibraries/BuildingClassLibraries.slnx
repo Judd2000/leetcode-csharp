@@ -8,6 +8,8 @@
   <Project Path="ExternalAssemblyReflection/ExternalAssemblyReflection.csproj" Id="b62af289-3120-421f-bd22-966f52dabb7f" />
   <Project Path="FrameworkAssemblyViewer/FrameworkAssemblyViewer.csproj" Id="5acd0933-cb25-4b73-88ae-a0896fc17cfe" />
   <Project Path="LateBinding/LateBinding.csproj" Id="062e1fa5-e97e-49a5-9aea-4b25c1bf09cf" />
+  <Project Path="LateBindingWIthDynamic/LateBindingWIthDynamic.csproj" Id="6c5cf0d5-c386-4407-90b8-80b4f85262cf" />
+  <Project Path="MathLibrary/MathLibrary.csproj" Id="516f0d1e-72fa-4fbe-8319-a54ab86a77c6" />
   <Project Path="MyExtendableApp/MyExtendableApp.csproj">
     <BuildDependency Project="CSharpSnapIn/CSharpSnapIn.csproj" />
     <BuildDependency Project="VBSnapIn/VBSnapIn.vbproj" />
