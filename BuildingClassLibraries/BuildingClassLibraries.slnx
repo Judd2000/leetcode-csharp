@@ -4,6 +4,7 @@
   <Project Path="CommonSnappableTypes/CommonSnappableTypes.csproj" />
   <Project Path="CSharpCarClient/CSharpCarClient.csproj" />
   <Project Path="CSharpSnapIn/CSharpSnapIn.csproj" />
+  <Project Path="DynamicAssemblyBuilder/DynamicAssemblyBuilder.csproj" Id="7bb2e358-c5b5-4085-8968-aaf1b1e970f2" />
   <Project Path="DynamicKeyword/DynamicKeyword.csproj" Id="9e58e9d1-583a-486a-a2e7-8de076bf76a5" />
   <Project Path="ExternalAssemblyReflection/ExternalAssemblyReflection.csproj" Id="b62af289-3120-421f-bd22-966f52dabb7f" />
   <Project Path="FrameworkAssemblyViewer/FrameworkAssemblyViewer.csproj" Id="5acd0933-cb25-4b73-88ae-a0896fc17cfe" />
