@@ -1,0 +1,13 @@
+{
+  "CanFly": true,
+  "CanSubmerge": false,
+  "radio": {
+    "HasTweeters": false,
+    "HasSubwoofers": true,
+    "StationPresets": [
+      1.1
+    ],
+    "RadioId": "XMX1028M"
+  },
+  "isHatchback": false
+}

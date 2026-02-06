@@ -1,0 +1,66 @@
+[
+  {
+    "CanFly": true,
+    "CanSubmerge": true,
+    "radio": {
+      "HasTweeters": true,
+      "HasSubwoofers": false,
+      "StationPresets": [
+        89.3,
+        106.9,
+        91.1,
+        98.5
+      ],
+      "RadioId": "XMX1028M"
+    },
+    "isHatchback": false
+  },
+  {
+    "CanFly": false,
+    "CanSubmerge": false,
+    "radio": {
+      "HasTweeters": true,
+      "HasSubwoofers": false,
+      "StationPresets": [
+        89.3,
+        106.9,
+        91.1,
+        98.5
+      ],
+      "RadioId": "XMX1028M"
+    },
+    "isHatchback": false
+  },
+  {
+    "CanFly": true,
+    "CanSubmerge": false,
+    "radio": {
+      "HasTweeters": true,
+      "HasSubwoofers": false,
+      "StationPresets": [
+        89.3,
+        106.9,
+        91.1,
+        98.5
+      ],
+      "RadioId": "XMX1028M"
+    },
+    "isHatchback": false
+  },
+  {
+    "CanFly": false,
+    "CanSubmerge": true,
+    "radio": {
+      "HasTweeters": true,
+      "HasSubwoofers": false,
+      "StationPresets": [
+        89.3,
+        106.9,
+        91.1,
+        98.5
+      ],
+      "RadioId": "XMX1028M"
+    },
+    "isHatchback": false
+  }
+]

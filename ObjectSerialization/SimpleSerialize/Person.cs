@@ -6,6 +6,7 @@ namespace SimpleSerialize
 {
     public class Person
     {
+        [JsonPropertyOrder(1)] // determine order JSON will be placed in serialized file
         public bool Alive = true;
         public Back? back;
         private int PersonAge = 63;

@@ -6,6 +6,7 @@ namespace SimpleSerialize
 {
     public class Radio
     {
+        // [JsonInclude] 
         public bool HasTweeters;
         public bool HasSubwoofers;
         public List<double> StationPresets = [];
