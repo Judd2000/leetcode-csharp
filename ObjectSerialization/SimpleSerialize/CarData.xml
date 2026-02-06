@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpyCar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <radio>
+    <HasTweeters>false</HasTweeters>
+    <HasSubwoofers>true</HasSubwoofers>
+    <StationPresets>
+      <double>1.1</double>
+    </StationPresets>
+    <RadioId>XMX1028M</RadioId>
+  </radio>
+  <isHatchback>false</isHatchback>
+  <CanFly>true</CanFly>
+  <CanSubmerge>false</CanSubmerge>
+</SpyCar>

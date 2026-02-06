@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="BinaryWriterReader/BinaryWriterReader.csproj" Id="4554f979-52b2-4058-87b4-4ac663132105" />
+  <Project Path="FileDirIO/FileDirIO.csproj" />
+  <Project Path="MyDirectoryWatcher/MyDirectoryWatcher.csproj" Id="86565f0b-48b6-4f1a-bbce-5914eb718d97" />
+  <Project Path="StreamWriterReader/StreamWriterReader.csproj" Id="a33af371-410a-47e4-a04c-aa7b08cdaa89" />
+</Solution>
