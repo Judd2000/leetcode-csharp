@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="AutoLot.Dal/AutoLot.Dal.csproj" Id="574b2643-e071-48f8-9f58-5e9e1ff30df4" />
+  <Project Path="B:/njudd/leetcode-csharp/ADONET/AutoLot.DataReader/AutoLot.DataReader.csproj" Id="dfda35bf-814e-4c91-ae59-5d163bd2c100" />
+  <Project Path="B:/njudd/leetcode-csharp/ADONET/DataProviderFactory/DataProviderFactory.csproj" Id="71a29243-153f-4c5a-b3c5-312d6975e026" />
+  <Project Path="B:/njudd/leetcode-csharp/ADONET/MyConnectionFactory/MyConnectionFactory.csproj" />
+</Solution>
