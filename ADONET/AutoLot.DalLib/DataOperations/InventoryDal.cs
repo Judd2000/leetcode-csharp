@@ -62,7 +62,7 @@ public class InventoryDal(string connectionString) : IDisposable
                 Id = (int) dataReader["Id"],
                 Color = (string) dataReader["Color"],
                 Make = (string) dataReader["Make"],
-                Name = (string) dataReader["Name"]
+                PetName = (string) dataReader["Name"]
             });
         }
         dataReader.Close();
@@ -112,7 +112,7 @@ public class InventoryDal(string connectionString) : IDisposable
             SqlParameter nameParam = new()
             {
                 ParameterName = "@name",
-                Value = car.Name,
+                Value = car.PetName,
                 SqlDbType = SqlDbType.NVarChar,
                 Size = 50,
                 Direction = ParameterDirection.Input
@@ -202,7 +202,7 @@ public class InventoryDal(string connectionString) : IDisposable
 
             // Output Param
             SqlParameter outputParam = new() { 
-                ParameterName = "@name",
+                ParameterName = "@petName",
                 SqlDbType = SqlDbType.NVarChar,
                 Size = 50,
                 Direction = ParameterDirection.Output,
@@ -215,7 +215,7 @@ public class InventoryDal(string connectionString) : IDisposable
             command.ExecuteNonQuery();
 
             // return out poaram
-            carName = (string) command.Parameters["@name"].Value;
+            carName = (string) command.Parameters["@petName"].Value;
             CloseConnection();
         }
         return carName;
@@ -252,12 +252,114 @@ public class InventoryDal(string connectionString) : IDisposable
                 Id = (int)reader["Id"],
                 Color = (string)reader["Color"],
                 Make = (string)reader["Make"],
-                Name = (string)reader["Name"]
+                PetName = (string)reader["Name"]
             };
         }
 
         reader.Close();
         return car;
+    }
+
+    public void ProcessCreditRisk(bool throwException, int customerId) {
+        OpenConnection();
+
+        string firstName;
+        string lastName;
+
+        var cmdSelect = new SqlCommand("Select * from Customers where Id = @customerId", _connection);
+
+        SqlParameter customerIdParam = new()
+        {
+            ParameterName = "@customerId",
+            SqlDbType = SqlDbType.Int,
+            Value = customerId,
+            Direction = ParameterDirection.Input
+        };
+
+        cmdSelect.Parameters.Add(customerIdParam);
+
+        using (var dataReader = cmdSelect.ExecuteReader()) {
+            if (dataReader.HasRows)
+            {
+                dataReader.Read();
+                firstName = (string)dataReader["FirstName"];
+                lastName = (string)dataReader["LastName"];
+            }
+            else {
+                CloseConnection();
+                return;
+            }
+        }
+
+        // clear params...
+        cmdSelect.Parameters.Clear();
+
+        // command objects for every step of the op
+        SqlCommand cmdUpdate = new("Update Customers set LastName = LastName + ('CreditRisk') where Id = @customerId", _connection); //append credit risk onto the last name.
+
+        cmdUpdate.Parameters.Add(customerIdParam);
+
+        SqlCommand cmdInsert = new("Insert Into CreditRisks (CustomerId, FirstName, LastName) Values (@customerId, @firstName, @lastName)", _connection);
+
+        SqlParameter paramCustId = new() { 
+            ParameterName = "@customerId",
+            SqlDbType = SqlDbType.Int,
+            Value = customerId,
+            Direction = ParameterDirection.Input
+        };
+
+        SqlParameter paramFirstName = new()
+        {
+            ParameterName = "@firstName",
+            SqlDbType = SqlDbType.NVarChar,
+            Value = firstName,
+            Size = 50,
+            Direction = ParameterDirection.Input
+        };
+
+        SqlParameter paramLastName = new()
+        {
+            ParameterName = "@lastName",
+            Value = lastName,
+            SqlDbType = SqlDbType.NVarChar,
+            Size = 50,
+            Direction = ParameterDirection.Input
+        };
+
+        cmdInsert.Parameters.Add(paramCustId);
+        cmdInsert.Parameters.Add(paramFirstName);
+        cmdInsert.Parameters.Add(paramLastName);
+
+        SqlTransaction transaction = null;
+        try
+        {
+            transaction = _connection.BeginTransaction();
+            // add commands to transaction, enlist commands into it
+            cmdInsert.Transaction = transaction;
+            cmdUpdate.Transaction = transaction;
+
+            // Execute commands as part of transaction
+            cmdInsert.ExecuteNonQuery();
+            cmdUpdate.ExecuteNonQuery();
+
+            // we are just going to simulate an error if throwEx is true.
+            if (throwException)
+            {
+                throw new Exception("Database Error - Transaction Failed.");
+            }
+
+            // Commit transaction.
+            transaction.Commit();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"An error ocurred: {ex}");
+            // if we had an error, we need to roll back the transaction.
+            transaction?.Rollback();
+        }
+        finally {
+            CloseConnection();
+        }
     }
 
     public InventoryDal() : this(@"Data Source=.,5433;User Id=sa;Password=Th3N3wP@ssword_;Initial Catalog=AutoLot;Encrypt=False;") { }
