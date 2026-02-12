@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
-namespace AutoLot.Dal.DataOperations;
+namespace AutoLot.DalLib.DataOperations;
 
 public class InventoryDal(string connectionString) : IDisposable
 {
@@ -42,11 +42,12 @@ public class InventoryDal(string connectionString) : IDisposable
     }
 
     public List<CarViewModel> GetAllInventory() {
+        OpenConnection();
         List<CarViewModel> inventory = [];
 
         string sqlStatement = @"SELECT i.Id, i.Color, i.PetName as Name, m.Name as Make FROM Inventory I INNER JOIN Makes m on m.Id = i.MakeId";
 
-        using SqlCommand command = new(sqlStatement)
+        using SqlCommand command = new(sqlStatement, _connection)
         {
             CommandType = CommandType.Text,
         };
@@ -237,7 +238,8 @@ public class InventoryDal(string connectionString) : IDisposable
         using SqlCommand command = new()
         {
             CommandType = CommandType.Text,
-            CommandText = sqlText
+            CommandText = sqlText,
+            Connection = _connection
         };
 
         command.Parameters.Add(param);
