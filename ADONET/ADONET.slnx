@@ -1,6 +1,8 @@
 <Solution>
   <Project Path="AutoLot.Client/AutoLot.Client.csproj" Id="6d274e0b-b0f1-4283-b549-c8abbe41d448" />
   <Project Path="AutoLot.DalLib/AutoLot.DalLib.csproj" Id="11eed330-8ce3-411b-9a52-675f87da5c4a" />
+  <Project Path="AutoLot.Samples/AutoLot.Samples.csproj" Id="817aef4c-d00f-4d89-9e85-0a93c1840a7f" />
+  <Project Path="AutoLot.TPH/AutoLot.TPH.csproj" />
   <Project Path="B:/njudd/leetcode-csharp/ADONET/AutoLot.DataReader/AutoLot.DataReader.csproj" Id="dfda35bf-814e-4c91-ae59-5d163bd2c100" />
   <Project Path="B:/njudd/leetcode-csharp/ADONET/DataProviderFactory/DataProviderFactory.csproj" Id="71a29243-153f-4c5a-b3c5-312d6975e026" />
   <Project Path="B:/njudd/leetcode-csharp/ADONET/MyConnectionFactory/MyConnectionFactory.csproj" />
