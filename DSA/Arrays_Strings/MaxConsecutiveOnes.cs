@@ -15,7 +15,7 @@ namespace Arrays_Strings
             int max = 0;
 
             int currZeros = 0;
-            while (right + 1 < nums.Length) {
+            while (right < nums.Length) {
                 if (nums[right] == 0)
                 {
                     currZeros++;
