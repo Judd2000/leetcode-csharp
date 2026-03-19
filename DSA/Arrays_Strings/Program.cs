@@ -24,7 +24,7 @@ PrintArr(inputOne);
 Console.WriteLine("Expected output:");
 PrintArr(solutionOne);
 
-bool correctSolution = CharArraysEqual(inputOne, solutionOne);
+bool correctSolution = ArraysEqual(inputOne, solutionOne);
 
 Console.WriteLine($"Solution one is correct: {correctSolution}");
 
@@ -44,15 +44,15 @@ PrintArr(inputTwo);
 Console.WriteLine("Expected output:");
 PrintArr(solutionTwo);
 
-correctSolution = CharArraysEqual(inputTwo, solutionTwo);
+correctSolution = ArraysEqual(inputTwo, solutionTwo);
 
 Console.WriteLine($"Solution two is correct: {correctSolution}");
 
-static bool CharArraysEqual(char[] a, char[] b) {
+static bool ArraysEqual<T>(T[] a, T[] b) {
     if (a.Length != b.Length) return false;
 
     for (int i = 0; i < a.Length; i++) { 
-        if (a[i] != b[i]) return false;
+        if (!a[i].Equals(b[i])) return false;
     }
     return true;
 }
@@ -75,3 +75,58 @@ Console.WriteLine($"Expected solution: {expectedAvg}");
 Console.WriteLine($"Actual solution: {maxAvg}");
 Console.WriteLine($"Correct solution? {correctSolution}");
 
+Console.WriteLine("**** Squares of Sorted Array ****");
+
+int[] squareInputOne = [-7, -3, 2, 3, 11];
+int[] squareSolutionOne = [4, 9, 9, 49, 121];
+
+Console.WriteLine("Input array:");
+PrintArr(squareInputOne);
+
+int[] actual = SquaresSorted.SortedSquares(squareInputOne);
+Console.WriteLine("Actual solution:");
+PrintArr(actual);
+
+Console.WriteLine($"Expected solution:");
+PrintArr(squareSolutionOne);
+
+correctSolution = ArraysEqual(actual, squareSolutionOne);
+Console.WriteLine($"Correct solution? {correctSolution}");
+
+int[] squareInputTwo = [-4, -1, 0, 3, 10];
+int[] squareSolutionTwo = [0, 1, 9, 16, 100];
+
+Console.WriteLine("Input array:");
+PrintArr(squareInputTwo);
+
+actual = SquaresSorted.SortedSquares(squareInputTwo);
+Console.WriteLine("Actual solution:");
+PrintArr(actual);
+
+Console.WriteLine($"Expected solution:");
+PrintArr(squareSolutionTwo);
+
+correctSolution = ArraysEqual(actual, squareSolutionTwo);
+Console.WriteLine($"Correct solution? {correctSolution}");
+
+Console.WriteLine("**** Max Consecutive Ones ****");
+
+int[] numInputOne = [1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0];
+int kInputOne = 2;
+int numExpectedOne = 6;
+
+Console.WriteLine("Input array:");
+PrintArr(numInputOne);
+int actualResOne = MaxConsecutiveOnes.LongestOnes(numInputOne, kInputOne);
+Console.WriteLine($"Actual solution: {actualResOne}, expected {numExpectedOne}. Correct? {actualResOne == numExpectedOne}");
+
+int[] numInputtwo = [0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1];
+int kInputTwo = 3;
+
+int numExpectedTwo = 10;
+
+Console.WriteLine("input array two: ");
+PrintArr(numInputtwo);
+
+int actualResTwo = MaxConsecutiveOnes.LongestOnes(numInputtwo, kInputTwo);
+Console.WriteLine($"Actual solution: {actualResTwo}, expected {numExpectedTwo}. Correct? {actualResTwo == numExpectedTwo}");
