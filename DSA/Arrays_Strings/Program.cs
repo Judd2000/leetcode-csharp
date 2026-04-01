@@ -130,3 +130,57 @@ PrintArr(numInputtwo);
 
 int actualResTwo = MaxConsecutiveOnes.LongestOnes(numInputtwo, kInputTwo);
 Console.WriteLine($"Actual solution: {actualResTwo}, expected {numExpectedTwo}. Correct? {actualResTwo == numExpectedTwo}");
+
+Console.WriteLine("***** Running Sum *****");
+
+int[] arrOne = [1, 2, 3, 4];
+int[] expectedRunningSum = [1, 3, 6, 10];
+
+Console.WriteLine("Input array:");
+PrintArr(arrOne);
+
+int[] actualRunningSum = RunningSum.RunningSumFunc(arrOne);
+
+correctSolution = ArraysEqual(actualRunningSum, expectedRunningSum);
+
+Console.WriteLine("Given solution:");
+PrintArr(actualRunningSum);
+Console.WriteLine("Real correct solution:");
+PrintArr(expectedRunningSum);
+
+Console.WriteLine($"Correct? {correctSolution}");
+
+int[] arrTwo = [1, 1, 1, 1, 1];
+expectedRunningSum = [1, 2, 3, 4, 5];
+
+Console.WriteLine("Input array:");
+PrintArr(arrTwo);
+
+actualRunningSum = RunningSum.RunningSumFunc(arrTwo);
+
+correctSolution = ArraysEqual(actualRunningSum, expectedRunningSum);
+
+Console.WriteLine("Given solution:");
+PrintArr(actualRunningSum);
+Console.WriteLine("Real correct solution:");
+PrintArr(expectedRunningSum);
+
+Console.WriteLine($"Correct? {correctSolution}");
+
+int[] arrThree = [3, 1, 2, 10, 1];
+expectedRunningSum = [3, 4, 6, 16, 17];
+
+Console.WriteLine("Input array:");
+PrintArr(arrThree);
+
+actualRunningSum = RunningSum.RunningSumFunc(arrThree);
+
+correctSolution = ArraysEqual(actualRunningSum, expectedRunningSum);
+
+Console.WriteLine("Given solution:");
+PrintArr(actualRunningSum);
+Console.WriteLine("Real correct solution:");
+PrintArr(expectedRunningSum);
+
+Console.WriteLine($"Correct? {correctSolution}");
+
