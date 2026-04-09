@@ -184,3 +184,111 @@ PrintArr(expectedRunningSum);
 
 Console.WriteLine($"Correct? {correctSolution}");
 
+Console.WriteLine("**** Minimum Value to Get Positive Step by Step Sum ****");
+
+//Input: nums = [-3, 2, -3, 4, 2]
+//Output: 5
+
+int[] nums = [-3, 2, -3, 4, 2];
+int expected = 5;
+
+int actualValue = MinSum.MinStartValue(nums);
+
+Console.WriteLine("Input array:");
+PrintArr(nums);
+
+Console.WriteLine($"Computed solution: {actualValue}. Expected: {expected}. Equal? {actualValue == expected}");
+
+//Input: nums = [1, 2]
+//Output: 1
+
+nums = [1, 2];
+expected = 1;
+
+actualValue = MinSum.MinStartValue(nums);
+
+Console.WriteLine("Input array:");
+PrintArr(nums);
+
+Console.WriteLine($"Computed solution: {actualValue}. Expected: {expected}. Equal? {actualValue == expected}");
+
+//Input: nums = [1, -2, -3]
+//Output: 5
+
+nums = [1, -2, -3];
+expected = 5;
+
+actualValue = MinSum.MinStartValue(nums);
+
+Console.WriteLine("Input array:");
+PrintArr(nums);
+
+Console.WriteLine($"Computed solution: {actualValue}. Expected: {expected}. Equal? {actualValue == expected}");
+
+//Input: nums = [7, 4, 3, 9, 1, 8, 5, 2, 6], k = 3
+//Output: [-1,-1,-1,5,4,4,-1,-1,-1]
+int[] kRadiusInput = [7, 4, 3, 9, 1, 8, 5, 2, 6];
+int radius = 3;
+int[] expectedKRadius = [-1, -1, -1, 5, 4, 4, -1, -1, -1];
+
+int[] actualKRadius = KRadiusSub.GetAverages(kRadiusInput, radius);
+
+Console.WriteLine("Input array:");
+PrintArr(kRadiusInput);
+
+correctSolution = ArraysEqual(actualKRadius, expectedKRadius);
+
+Console.WriteLine($"Computed solution:");
+PrintArr(actualKRadius);
+Console.WriteLine("Expected:");
+PrintArr(expectedKRadius);
+
+Console.WriteLine($"Equal? {correctSolution}");
+
+//Input: nums = [100000], k = 0
+//Output: [100000]
+//Explanation:
+//-The sum of the subarray centered at index 0 with radius 0 is: 100000.
+//  avg[0] = 100000 / 1 = 100000.
+//Example 3:
+
+kRadiusInput = [100000];
+radius = 0;
+expectedKRadius = [100000];
+
+actualKRadius = KRadiusSub.GetAverages(kRadiusInput , radius);
+
+Console.WriteLine("Input array:");
+PrintArr(kRadiusInput);
+
+correctSolution = ArraysEqual(actualKRadius, expectedKRadius);
+
+Console.WriteLine($"Computed solution:");
+PrintArr(actualKRadius);
+Console.WriteLine("Expected:");
+PrintArr(expectedKRadius);
+
+Console.WriteLine($"Equal? {correctSolution}");
+
+//Input: nums = [8], k = 100000
+//Output: [-1]
+//Explanation:
+//-avg[0] is -1 because there are less than k elements before and after index 0.
+
+kRadiusInput = [8];
+radius = 100000;
+expectedKRadius = [-1];
+
+actualKRadius = KRadiusSub.GetAverages(kRadiusInput, radius);
+
+Console.WriteLine("Input array:");
+PrintArr(kRadiusInput);
+
+correctSolution = ArraysEqual(actualKRadius, expectedKRadius);
+
+Console.WriteLine($"Computed solution:");
+PrintArr(actualKRadius);
+Console.WriteLine("Expected:");
+PrintArr(expectedKRadius);
+
+Console.WriteLine($"Equal? {correctSolution}");
