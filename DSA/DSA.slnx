@@ -1,3 +1,5 @@
 <Solution>
+  <Project Path="ArrayFncts/ArrayFncts.csproj" Id="16e16853-b027-4516-ad9c-deb3bab61e6f" />
   <Project Path="Arrays_Strings/Arrays_Strings.csproj" />
+  <Project Path="HashMaps/HashMaps.csproj" Id="c3f1cae7-3113-49ad-b0fc-fa4b1c56f24b" />
 </Solution>

@@ -24,6 +24,8 @@ For example, the average of four elements 2, 3, 1, and 5 is (2 + 3 + 1 + 5) / 4 
 Input: nums = [7,4,3,9,1,8,5,2,6], k = 3
 Output: [-1,-1,-1,5,4,4,-1,-1,-1]
          */
+
+        // NOTE: Overflow errors are possible on some of the sums. If needed, use 'long' for the sum and perform casts.
         public static int[] GetAverages(int[] nums, int k)
         {
             if (k == 0) return nums;
