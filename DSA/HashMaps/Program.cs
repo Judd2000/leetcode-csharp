@@ -178,3 +178,127 @@ Console.WriteLine("Input array:");
 ArrayFncts.ArrayFncts.PrintArr(missingNumInput);
 
 Console.WriteLine($"Given solution: {givenSolution}. Expected: {expected}. Equal? {givenSolution == expected}");
+
+Console.WriteLine("******* Contiguous Subarray 1's and 0's Max Length Implementation *******");
+
+//Given a binary array nums, return the maximum length of a contiguous subarray with an equal number of 0 and 1.
+
+
+
+//Example 1:
+
+//Input: nums = [0, 1]
+//Output: 2
+//Explanation: [0, 1] is the longest contiguous subarray with an equal number of 0 and 1.
+
+int[] contiguousArrayInput = [0, 1];
+
+expected = 2;
+
+givenSolution = ContiguousSubarray.FindMaxLength(contiguousArrayInput);
+
+Console.WriteLine($"Given solution: {givenSolution}. Expected: {expected}. Equal? {givenSolution == expected}");
+
+//Example 2:
+
+//Input: nums = [0, 1, 0]
+//Output: 2
+//Explanation: [0, 1](or[1, 0]) is a longest contiguous subarray with equal number of 0 and 1.
+
+contiguousArrayInput = [0, 1, 0];
+expected = 2;
+
+givenSolution = ContiguousSubarray.FindMaxLength(contiguousArrayInput);
+
+Console.WriteLine($"Given solution: {givenSolution}. Expected: {expected}. Equal? {givenSolution == expected}");
+
+//Example 3:
+
+//Input: nums = [0, 1, 1, 1, 1, 1, 0, 0, 0]
+//Output: 6
+//Explanation: [1, 1, 1, 0, 0, 0] is the longest contiguous subarray with equal number of 0 and 1.
+
+contiguousArrayInput = [0, 1, 1, 1, 1, 1, 0, 0, 0];
+
+expected = 6;
+
+givenSolution = ContiguousSubarray.FindMaxLength(contiguousArrayInput);
+
+Console.WriteLine($"Given solution: {givenSolution}. Expected: {expected}. Equal? {givenSolution == expected}");
+
+Console.WriteLine("******** RANSOM NOTE IMPLEMENTATION (CHAR ARRAY INDICES AND HASH MAP) ********");
+
+//Example 1:
+
+//Input: ransomNote = "a", magazine = "b"
+//Output: false
+
+string ransomNote = "a";
+string magazine = "b";
+
+Console.WriteLine($"Ransom note: {ransomNote}, magazine: {magazine}");
+
+Console.WriteLine("\nArray Implementation:");
+
+bool canCompleteNote = false;
+
+bool implementationAnswer = RansomNote.CanConstruct_ArrayVer(ransomNote, magazine);
+
+Console.WriteLine($"Expected: {canCompleteNote}, actual: {implementationAnswer}");
+
+Console.WriteLine("\nHash Implementation:");
+
+implementationAnswer = RansomNote.CanConstruct_HashVerFASTER(ransomNote, magazine);
+
+Console.WriteLine($"Expected: {canCompleteNote}, actual: {implementationAnswer}");
+
+
+//Example 2:
+
+//Input: ransomNote = "aa", magazine = "ab"
+//Output: false
+
+ransomNote = "aa";
+magazine = "ab";
+
+Console.WriteLine($"Ransom note: {ransomNote}, magazine: {magazine}");
+
+Console.WriteLine("\nArray Implementation:");
+
+canCompleteNote = false;
+
+implementationAnswer = RansomNote.CanConstruct_ArrayVer(ransomNote, magazine);
+
+Console.WriteLine($"Expected: {canCompleteNote}, actual: {implementationAnswer}");
+
+Console.WriteLine("\nHash Implementation:");
+
+implementationAnswer = RansomNote.CanConstruct_HashVerFASTER(ransomNote, magazine);
+
+Console.WriteLine($"Expected: {canCompleteNote}, actual: {implementationAnswer}\n");
+
+
+//Example 3:
+
+//Input: ransomNote = "aa", magazine = "aab"
+//Output: true
+
+ransomNote = "aa";
+magazine = "aab";
+
+Console.WriteLine($"Ransom note: {ransomNote}, magazine: {magazine}");
+
+Console.WriteLine("\nArray Implementation:");
+
+canCompleteNote = true;
+
+implementationAnswer = RansomNote.CanConstruct_ArrayVer(ransomNote, magazine);
+
+Console.WriteLine($"Expected: {canCompleteNote}, actual: {implementationAnswer}");
+
+Console.WriteLine("\nHash Implementation:");
+
+implementationAnswer = RansomNote.CanConstruct_HashVerFASTER(ransomNote, magazine);
+
+Console.WriteLine($"Expected: {canCompleteNote}, actual: {implementationAnswer}\n");
+
